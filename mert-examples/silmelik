@@ -1,0 +1,596 @@
+Chosen: 1000
+so far iter : 0 , time 0.001
+1000
+*** Orig Acc for all : 0.5509999990463257
+*** Orig Acc for new_clf : 0.5509999990463257
+*** Orig Acc for drift_clf : 0.5509999990463257
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 1.9709 - sparse_categorical_accuracy: 0.6230
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.9315 - sparse_categorical_accuracy: 0.7980
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.4320 - sparse_categorical_accuracy: 0.9110
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2653 - sparse_categorical_accuracy: 0.9650
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2071 - sparse_categorical_accuracy: 0.9840
+Retrained took: 57027
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 1.9709 - sparse_categorical_accuracy: 0.6230
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.9315 - sparse_categorical_accuracy: 0.7980
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.4320 - sparse_categorical_accuracy: 0.9110
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2653 - sparse_categorical_accuracy: 0.9650
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2071 - sparse_categorical_accuracy: 0.9840
+Retrained MMD took: 57402
+** results: {'method': 'MMD', 'model_acc': 0.5509999990463257, 'model_acc_periodic': 0.5509999990463257, 'model_acc_drift': 0.5509999990463257, 'corrupted': 1.0, 'exec': 21035, 'drift': 1, 'epoch': 0}
+ Iter : 0
+******** for 1000
+Chosen: 100
+so far iter : 0 , time 141.326
+1000
+*** Orig Acc for all : 0.8870000243186951
+*** Orig Acc for new_clf : 0.8500000238418579
+*** Orig Acc for drift_clf : 0.8500000238418579
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.6098 - sparse_categorical_accuracy: 0.8650
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.3796 - sparse_categorical_accuracy: 0.9250
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2398 - sparse_categorical_accuracy: 0.9600
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1843 - sparse_categorical_accuracy: 0.9810
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1582 - sparse_categorical_accuracy: 0.9930
+Retrained took: 59907
+** results: {'method': 'MMD', 'model_acc': 0.8870000243186951, 'model_acc_periodic': 0.8500000238418579, 'model_acc_drift': 0.8500000238418579, 'corrupted': 0.1, 'exec': 24364, 'drift': 0, 'epoch': 1}
+ Iter : 0
+******** for 100
+Chosen: 250
+so far iter : 0 , time 231.25
+1000
+*** Orig Acc for all : 0.8289999961853027
+*** Orig Acc for new_clf : 0.8190000057220459
+*** Orig Acc for drift_clf : 0.8009999990463257
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.7478 - sparse_categorical_accuracy: 0.8520
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.4446 - sparse_categorical_accuracy: 0.9160
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2879 - sparse_categorical_accuracy: 0.9520
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2123 - sparse_categorical_accuracy: 0.9790
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1855 - sparse_categorical_accuracy: 0.9870
+Retrained took: 57708
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.7993 - sparse_categorical_accuracy: 0.8380
+Epoch 2/5
+8/8 [==============================] - 11s 1s/step - loss: 0.4751 - sparse_categorical_accuracy: 0.9020
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.3112 - sparse_categorical_accuracy: 0.9480
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2256 - sparse_categorical_accuracy: 0.9720
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1938 - sparse_categorical_accuracy: 0.9800
+Retrained MMD took: 59376
+** results: {'method': 'MMD', 'model_acc': 0.8289999961853027, 'model_acc_periodic': 0.8190000057220459, 'model_acc_drift': 0.8009999990463257, 'corrupted': 0.25, 'exec': 23904, 'drift': 1, 'epoch': 2}
+ Iter : 0
+******** for 250
+Chosen: 1000
+so far iter : 0 , time 377.589
+1000
+*** Orig Acc for all : 0.550000011920929
+*** Orig Acc for new_clf : 0.6209999918937683
+*** Orig Acc for drift_clf : 0.6230000257492065
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 1.4632 - sparse_categorical_accuracy: 0.6910
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.7089 - sparse_categorical_accuracy: 0.8320
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.3928 - sparse_categorical_accuracy: 0.9150
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2779 - sparse_categorical_accuracy: 0.9670
+Epoch 5/5
+8/8 [==============================] - 12s 1s/step - loss: 0.2133 - sparse_categorical_accuracy: 0.9790
+Retrained took: 63437
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 1.4858 - sparse_categorical_accuracy: 0.6720
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.7314 - sparse_categorical_accuracy: 0.8300
+Epoch 3/5
+8/8 [==============================] - 12s 1s/step - loss: 0.4140 - sparse_categorical_accuracy: 0.9100
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2941 - sparse_categorical_accuracy: 0.9510
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2203 - sparse_categorical_accuracy: 0.9780
+Retrained MMD took: 59587
+** results: {'method': 'MMD', 'model_acc': 0.550000011920929, 'model_acc_periodic': 0.6209999918937683, 'model_acc_drift': 0.6230000257492065, 'corrupted': 1.0, 'exec': 26659, 'drift': 1, 'epoch': 3}
+ Iter : 0
+******** for 1000
+Chosen: 200
+so far iter : 0 , time 533.633
+1000
+*** Orig Acc for all : 0.8420000076293945
+*** Orig Acc for new_clf : 0.8399999737739563
+*** Orig Acc for drift_clf : 0.824999988079071
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.6440 - sparse_categorical_accuracy: 0.8550
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.3989 - sparse_categorical_accuracy: 0.9110
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2641 - sparse_categorical_accuracy: 0.9640
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2174 - sparse_categorical_accuracy: 0.9730
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1735 - sparse_categorical_accuracy: 0.9910
+Retrained took: 61210
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.7017 - sparse_categorical_accuracy: 0.8420
+Epoch 2/5
+8/8 [==============================] - 12s 1s/step - loss: 0.4239 - sparse_categorical_accuracy: 0.9060
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2731 - sparse_categorical_accuracy: 0.9590
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2164 - sparse_categorical_accuracy: 0.9750
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1708 - sparse_categorical_accuracy: 0.9900
+Retrained MMD took: 62927
+** results: {'method': 'MMD', 'model_acc': 0.8420000076293945, 'model_acc_periodic': 0.8399999737739563, 'model_acc_drift': 0.824999988079071, 'corrupted': 0.2, 'exec': 23395, 'drift': 1, 'epoch': 4}
+ Iter : 0
+******** for 200
+Chosen: 250
+so far iter : 0 , time 687.605
+1000
+*** Orig Acc for all : 0.8519999980926514
+*** Orig Acc for new_clf : 0.859000027179718
+*** Orig Acc for drift_clf : 0.8479999899864197
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.5442 - sparse_categorical_accuracy: 0.8720
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.3657 - sparse_categorical_accuracy: 0.9270
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2549 - sparse_categorical_accuracy: 0.9640
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1960 - sparse_categorical_accuracy: 0.9810
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1633 - sparse_categorical_accuracy: 0.9940
+Retrained took: 58113
+** results: {'method': 'MMD', 'model_acc': 0.8519999980926514, 'model_acc_periodic': 0.859000027179718, 'model_acc_drift': 0.8479999899864197, 'corrupted': 0.25, 'exec': 23112, 'drift': 0, 'epoch': 5}
+ Iter : 0
+******** for 250
+Chosen: 50
+so far iter : 0 , time 775.475
+1000
+*** Orig Acc for all : 0.9070000052452087
+*** Orig Acc for new_clf : 0.8709999918937683
+*** Orig Acc for drift_clf : 0.878000020980835
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.4724 - sparse_categorical_accuracy: 0.9070
+Epoch 2/5
+8/8 [==============================] - 12s 2s/step - loss: 0.3140 - sparse_categorical_accuracy: 0.9470
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2198 - sparse_categorical_accuracy: 0.9720
+Epoch 4/5
+8/8 [==============================] - 12s 1s/step - loss: 0.1777 - sparse_categorical_accuracy: 0.9840
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1590 - sparse_categorical_accuracy: 0.9940
+Retrained took: 63545
+** results: {'method': 'MMD', 'model_acc': 0.9070000052452087, 'model_acc_periodic': 0.8709999918937683, 'model_acc_drift': 0.878000020980835, 'corrupted': 0.05, 'exec': 24391, 'drift': 0, 'epoch': 6}
+ Iter : 0
+******** for 50
+Chosen: 500
+so far iter : 0 , time 868.417
+1000
+*** Orig Acc for all : 0.7509999871253967
+*** Orig Acc for new_clf : 0.7860000133514404
+*** Orig Acc for drift_clf : 0.8130000233650208
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.6938 - sparse_categorical_accuracy: 0.8460
+Epoch 2/5
+8/8 [==============================] - 12s 2s/step - loss: 0.4457 - sparse_categorical_accuracy: 0.9120
+Epoch 3/5
+8/8 [==============================] - 12s 1s/step - loss: 0.2975 - sparse_categorical_accuracy: 0.9430
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2128 - sparse_categorical_accuracy: 0.9720
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1761 - sparse_categorical_accuracy: 0.9910
+Retrained took: 63989
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.7656 - sparse_categorical_accuracy: 0.8530
+Epoch 2/5
+8/8 [==============================] - 11s 1s/step - loss: 0.4856 - sparse_categorical_accuracy: 0.8930
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.3184 - sparse_categorical_accuracy: 0.9320
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2362 - sparse_categorical_accuracy: 0.9690
+Epoch 5/5
+8/8 [==============================] - 12s 1s/step - loss: 0.1874 - sparse_categorical_accuracy: 0.9830
+Retrained MMD took: 62624
+** results: {'method': 'MMD', 'model_acc': 0.7509999871253967, 'model_acc_periodic': 0.7860000133514404, 'model_acc_drift': 0.8130000233650208, 'corrupted': 0.5, 'exec': 24266, 'drift': 1, 'epoch': 7}
+ Iter : 0
+******** for 500
+Chosen: 50
+so far iter : 0 , time 1025.828
+1000
+*** Orig Acc for all : 0.9089999794960022
+*** Orig Acc for new_clf : 0.9190000295639038
+*** Orig Acc for drift_clf : 0.8849999904632568
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.3681 - sparse_categorical_accuracy: 0.9340
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2789 - sparse_categorical_accuracy: 0.9590
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2009 - sparse_categorical_accuracy: 0.9830
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1705 - sparse_categorical_accuracy: 0.9890
+Epoch 5/5
+8/8 [==============================] - 12s 1s/step - loss: 0.1527 - sparse_categorical_accuracy: 0.9970
+Retrained took: 61745
+** results: {'method': 'MMD', 'model_acc': 0.9089999794960022, 'model_acc_periodic': 0.9190000295639038, 'model_acc_drift': 0.8849999904632568, 'corrupted': 0.05, 'exec': 25068, 'drift': 0, 'epoch': 8}
+ Iter : 0
+******** for 50
+Chosen: 500
+so far iter : 0 , time 1119.646
+1000
+*** Orig Acc for all : 0.7369999885559082
+*** Orig Acc for new_clf : 0.8330000042915344
+*** Orig Acc for drift_clf : 0.8109999895095825
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.6804 - sparse_categorical_accuracy: 0.8470
+Epoch 2/5
+8/8 [==============================] - 12s 1s/step - loss: 0.4068 - sparse_categorical_accuracy: 0.9060
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2932 - sparse_categorical_accuracy: 0.9490
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2017 - sparse_categorical_accuracy: 0.9820
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1718 - sparse_categorical_accuracy: 0.9940
+Retrained took: 64321
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 0.7012 - sparse_categorical_accuracy: 0.8390
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.4345 - sparse_categorical_accuracy: 0.9050
+Epoch 3/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3063 - sparse_categorical_accuracy: 0.9460
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2107 - sparse_categorical_accuracy: 0.9790
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1744 - sparse_categorical_accuracy: 0.9930
+Retrained MMD took: 52660
+** results: {'method': 'MMD', 'model_acc': 0.7369999885559082, 'model_acc_periodic': 0.8330000042915344, 'model_acc_drift': 0.8109999895095825, 'corrupted': 0.5, 'exec': 22437, 'drift': 1, 'epoch': 9}
+ Iter : 0
+******** for 500
+Chosen: 1000
+so far iter : 0 , time 1264.932
+1000
+*** Orig Acc for all : 0.5350000262260437
+*** Orig Acc for new_clf : 0.7429999709129333
+*** Orig Acc for drift_clf : 0.6930000185966492
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 1.0537 - sparse_categorical_accuracy: 0.7640
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.5938 - sparse_categorical_accuracy: 0.8670
+Epoch 3/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3404 - sparse_categorical_accuracy: 0.9280
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2300 - sparse_categorical_accuracy: 0.9760
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1881 - sparse_categorical_accuracy: 0.9910
+Retrained took: 51862
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 1.0579 - sparse_categorical_accuracy: 0.7460
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.5979 - sparse_categorical_accuracy: 0.8620
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.3411 - sparse_categorical_accuracy: 0.9310
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2285 - sparse_categorical_accuracy: 0.9830
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1875 - sparse_categorical_accuracy: 0.9930
+Retrained MMD took: 52538
+** results: {'method': 'MMD', 'model_acc': 0.5350000262260437, 'model_acc_periodic': 0.7429999709129333, 'model_acc_drift': 0.6930000185966492, 'corrupted': 1.0, 'exec': 21886, 'drift': 1, 'epoch': 10}
+ Iter : 0
+******** for 1000
+Chosen: 250
+so far iter : 0 , time 1397.091
+1000
+*** Orig Acc for all : 0.8169999718666077
+*** Orig Acc for new_clf : 0.8629999756813049
+*** Orig Acc for drift_clf : 0.843999981880188
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 0.5342 - sparse_categorical_accuracy: 0.8970
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3752 - sparse_categorical_accuracy: 0.9180
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2587 - sparse_categorical_accuracy: 0.9580
+Epoch 4/5
+8/8 [==============================] - 12s 1s/step - loss: 0.2029 - sparse_categorical_accuracy: 0.9800
+Epoch 5/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1718 - sparse_categorical_accuracy: 0.9930
+Retrained took: 57631
+** results: {'method': 'MMD', 'model_acc': 0.8169999718666077, 'model_acc_periodic': 0.8629999756813049, 'model_acc_drift': 0.843999981880188, 'corrupted': 0.25, 'exec': 24189, 'drift': 0, 'epoch': 11}
+ Iter : 0
+******** for 250
+Chosen: 200
+so far iter : 0 , time 1484.18
+1000
+*** Orig Acc for all : 0.8410000205039978
+*** Orig Acc for new_clf : 0.902999997138977
+*** Orig Acc for drift_clf : 0.8550000190734863
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.3946 - sparse_categorical_accuracy: 0.9160
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2811 - sparse_categorical_accuracy: 0.9540
+Epoch 3/5
+8/8 [==============================] - 12s 1s/step - loss: 0.2169 - sparse_categorical_accuracy: 0.9830
+Epoch 4/5
+8/8 [==============================] - 12s 2s/step - loss: 0.2017 - sparse_categorical_accuracy: 0.9760
+Epoch 5/5
+8/8 [==============================] - 12s 1s/step - loss: 0.1620 - sparse_categorical_accuracy: 0.9920
+Retrained took: 65539
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.4830 - sparse_categorical_accuracy: 0.8930
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3147 - sparse_categorical_accuracy: 0.9350
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2400 - sparse_categorical_accuracy: 0.9720
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2100 - sparse_categorical_accuracy: 0.9740
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1677 - sparse_categorical_accuracy: 0.9910
+Retrained MMD took: 56390
+** results: {'method': 'MMD', 'model_acc': 0.8410000205039978, 'model_acc_periodic': 0.902999997138977, 'model_acc_drift': 0.8550000190734863, 'corrupted': 0.2, 'exec': 30615, 'drift': 1, 'epoch': 12}
+ Iter : 0
+******** for 200
+Chosen: 1000
+so far iter : 0 , time 1641.941
+1000
+*** Orig Acc for all : 0.5550000071525574
+*** Orig Acc for new_clf : 0.7749999761581421
+*** Orig Acc for drift_clf : 0.7509999871253967
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.9405 - sparse_categorical_accuracy: 0.7690
+Epoch 2/5
+8/8 [==============================] - 11s 1s/step - loss: 0.5172 - sparse_categorical_accuracy: 0.8760
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.3046 - sparse_categorical_accuracy: 0.9360
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2155 - sparse_categorical_accuracy: 0.9800
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1811 - sparse_categorical_accuracy: 0.9910
+Retrained took: 60718
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.9975 - sparse_categorical_accuracy: 0.7630
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.5755 - sparse_categorical_accuracy: 0.8680
+Epoch 3/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3373 - sparse_categorical_accuracy: 0.9390
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2371 - sparse_categorical_accuracy: 0.9720
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1903 - sparse_categorical_accuracy: 0.9890
+Retrained MMD took: 54579
+** results: {'method': 'MMD', 'model_acc': 0.5550000071525574, 'model_acc_periodic': 0.7749999761581421, 'model_acc_drift': 0.7509999871253967, 'corrupted': 1.0, 'exec': 23326, 'drift': 1, 'epoch': 13}
+ Iter : 0
+******** for 1000
+Chosen: 100
+so far iter : 0 , time 1786.864
+1000
+*** Orig Acc for all : 0.8970000147819519
+*** Orig Acc for new_clf : 0.9110000133514404
+*** Orig Acc for drift_clf : 0.906000018119812
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.3357 - sparse_categorical_accuracy: 0.9430
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2614 - sparse_categorical_accuracy: 0.9610
+Epoch 3/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2078 - sparse_categorical_accuracy: 0.9760
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1682 - sparse_categorical_accuracy: 0.9930
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1548 - sparse_categorical_accuracy: 0.9960
+Retrained took: 58028
+** results: {'method': 'MMD', 'model_acc': 0.8970000147819519, 'model_acc_periodic': 0.9110000133514404, 'model_acc_drift': 0.906000018119812, 'corrupted': 0.1, 'exec': 23634, 'drift': 0, 'epoch': 14}
+ Iter : 0
+******** for 100
+Chosen: 250
+so far iter : 0 , time 1874.34
+1000
+*** Orig Acc for all : 0.8330000042915344
+*** Orig Acc for new_clf : 0.878000020980835
+*** Orig Acc for drift_clf : 0.8600000143051147
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 10s 1s/step - loss: 0.4316 - sparse_categorical_accuracy: 0.9050
+Epoch 2/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2870 - sparse_categorical_accuracy: 0.9500
+Epoch 3/5
+8/8 [==============================] - 12s 1s/step - loss: 0.2180 - sparse_categorical_accuracy: 0.9780
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1822 - sparse_categorical_accuracy: 0.9890
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1629 - sparse_categorical_accuracy: 0.9950
+Retrained took: 62844
+** results: {'method': 'MMD', 'model_acc': 0.8330000042915344, 'model_acc_periodic': 0.878000020980835, 'model_acc_drift': 0.8600000143051147, 'corrupted': 0.25, 'exec': 24559, 'drift': 0, 'epoch': 15}
+ Iter : 0
+******** for 250
+Chosen: 200
+so far iter : 0 , time 1967.302
+1000
+*** Orig Acc for all : 0.859000027179718
+*** Orig Acc for new_clf : 0.9039999842643738
+*** Orig Acc for drift_clf : 0.8790000081062317
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.3613 - sparse_categorical_accuracy: 0.9240
+Epoch 2/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2661 - sparse_categorical_accuracy: 0.9580
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2006 - sparse_categorical_accuracy: 0.9810
+Epoch 4/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1659 - sparse_categorical_accuracy: 0.9940
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1542 - sparse_categorical_accuracy: 0.9960
+Retrained took: 58561
+** results: {'method': 'MMD', 'model_acc': 0.859000027179718, 'model_acc_periodic': 0.9039999842643738, 'model_acc_drift': 0.8790000081062317, 'corrupted': 0.2, 'exec': 24005, 'drift': 0, 'epoch': 16}
+ Iter : 0
+******** for 200
+Chosen: 50
+so far iter : 0 , time 2056.159
+1000
+*** Orig Acc for all : 0.9110000133514404
+*** Orig Acc for new_clf : 0.9380000233650208
+*** Orig Acc for drift_clf : 0.9100000262260437
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 11s 1s/step - loss: 0.2740 - sparse_categorical_accuracy: 0.9580
+Epoch 2/5
+8/8 [==============================] - 10s 1s/step - loss: 0.2219 - sparse_categorical_accuracy: 0.9710
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1653 - sparse_categorical_accuracy: 0.9940
+Epoch 4/5
+8/8 [==============================] - 11s 1s/step - loss: 0.1547 - sparse_categorical_accuracy: 0.9940
+Epoch 5/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1441 - sparse_categorical_accuracy: 0.9980
+Retrained took: 58919
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 8s 1s/step - loss: 0.3189 - sparse_categorical_accuracy: 0.9340
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2476 - sparse_categorical_accuracy: 0.9600
+Epoch 3/5
+8/8 [==============================] - 10s 1s/step - loss: 0.1834 - sparse_categorical_accuracy: 0.9870
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1651 - sparse_categorical_accuracy: 0.9880
+Epoch 5/5
+8/8 [==============================] - 8s 1s/step - loss: 0.1522 - sparse_categorical_accuracy: 0.9960
+Retrained MMD took: 50374
+** results: {'method': 'MMD', 'model_acc': 0.9110000133514404, 'model_acc_periodic': 0.9380000233650208, 'model_acc_drift': 0.9100000262260437, 'corrupted': 0.05, 'exec': 20607, 'drift': 1, 'epoch': 17}
+ Iter : 0
+******** for 50
+Chosen: 500
+so far iter : 0 , time 2192.004
+1000
+*** Orig Acc for all : 0.7620000243186951
+*** Orig Acc for new_clf : 0.875
+*** Orig Acc for drift_clf : 0.8220000267028809
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 0.5220 - sparse_categorical_accuracy: 0.8750
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3289 - sparse_categorical_accuracy: 0.9280
+Epoch 3/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2379 - sparse_categorical_accuracy: 0.9660
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1815 - sparse_categorical_accuracy: 0.9910
+Epoch 5/5
+8/8 [==============================] - 9s 1s/step - loss: 0.1637 - sparse_categorical_accuracy: 0.9940
+Retrained took: 50646
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 9s 1s/step - loss: 0.6084 - sparse_categorical_accuracy: 0.8540
+Epoch 2/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3844 - sparse_categorical_accuracy: 0.9180
+Epoch 3/5
+8/8 [==============================] - 8s 1s/step - loss: 0.2683 - sparse_categorical_accuracy: 0.9600
+Epoch 4/5
+8/8 [==============================] - 8s 1s/step - loss: 0.2017 - sparse_categorical_accuracy: 0.9790
+Epoch 5/5
+8/8 [==============================] - 8s 1s/step - loss: 0.1751 - sparse_categorical_accuracy: 0.9910
+Retrained MMD took: 48146
+** results: {'method': 'MMD', 'model_acc': 0.7620000243186951, 'model_acc_periodic': 0.875, 'model_acc_drift': 0.8220000267028809, 'corrupted': 0.5, 'exec': 20391, 'drift': 1, 'epoch': 18}
+ Iter : 0
+******** for 500
+Chosen: 1000
+so far iter : 0 , time 2316.956
+1000
+*** Orig Acc for all : 0.5809999704360962
+*** Orig Acc for new_clf : 0.7720000147819519
+*** Orig Acc for drift_clf : 0.718999981880188
+
+Retraining periodic
+Epoch 1/5
+8/8 [==============================] - 8s 1s/step - loss: 0.9201 - sparse_categorical_accuracy: 0.7770
+Epoch 2/5
+8/8 [==============================] - 8s 1s/step - loss: 0.5406 - sparse_categorical_accuracy: 0.8710
+Epoch 3/5
+8/8 [==============================] - 9s 1s/step - loss: 0.3106 - sparse_categorical_accuracy: 0.9460
+Epoch 4/5
+8/8 [==============================] - 8s 982ms/step - loss: 0.2202 - sparse_categorical_accuracy: 0.9800
+Epoch 5/5
+8/8 [==============================] - 8s 956ms/step - loss: 0.1760 - sparse_categorical_accuracy: 0.9920
+Retrained took: 47520
+MMD drift
+Retraining drifter
+Epoch 1/5
+8/8 [==============================] - 8s 1s/step - loss: 1.0132 - sparse_categorical_accuracy: 0.7590
+Epoch 2/5
+8/8 [==============================] - 8s 1s/step - loss: 0.6110 - sparse_categorical_accuracy: 0.8590
+Epoch 3/5
+8/8 [==============================] - 8s 1s/step - loss: 0.3470 - sparse_categorical_accuracy: 0.9260
+Epoch 4/5
+8/8 [==============================] - 9s 1s/step - loss: 0.2503 - sparse_categorical_accuracy: 0.9700
+Epoch 5/5
+8/8 [==============================] - 8s 973ms/step - loss: 0.1910 - sparse_categorical_accuracy: 0.9880
+Retrained MMD took: 47144
+** results: {'method': 'MMD', 'model_acc': 0.5809999704360962, 'model_acc_periodic': 0.7720000147819519, 'model_acc_drift': 0.718999981880188, 'corrupted': 1.0, 'exec': 17806, 'drift': 1, 'epoch': 19}
+ Iter : 0
+******** for 1000
